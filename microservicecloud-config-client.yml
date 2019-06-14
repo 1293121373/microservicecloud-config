@@ -20,7 +20,7 @@ eureka:
 ---
  
 server: 
-    port: 8203
+    port: 8202
 spring: 
   profiles: test #测试环境
   application: 
@@ -29,4 +29,4 @@ spring:
 eureka: 
     client:
         service-url:
-            defaultZone: http://eureka-dev.com:7001/eureka
+            defaultZone: http://eureka-test.com:7001/eureka
